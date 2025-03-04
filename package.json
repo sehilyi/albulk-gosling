@@ -5,6 +5,6 @@
 	"version": "1.0.0",
 	"dependencies": {
 		"altgosling": "^0.0.1",
-		"gosling.js": "^1.0.0"
+		"gosling.js": "^1.0.2"
 	}
 }

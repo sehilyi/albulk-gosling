@@ -1,5 +1,5 @@
-import { _compile, _GoslingTemplates } from 'gosling.js/utils';
-import { getAlt } from 'altgosling';
+import { _compile } from 'gosling.js/compiler';
+import { getAlt } from 'altgosling/utils';
 import * as fs from "node:fs/promises";
 
 const inDir = process.argv[2];
@@ -23,6 +23,6 @@ files.forEach(async (input, i) => {
 		if (i === files.length - 1) {
 			await fs.writeFile(`${outDir}failedlist.txt`, failedFiles.join('\n'));
 		}
-	}, _GoslingTemplates);
+	});
 });
 
