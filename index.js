@@ -15,7 +15,7 @@ files.forEach(async (input, i) => {
 	const output = `${outDir}${input.split('.json')[0]}.txt`;
 	_compile(spec, async (h, s, ps) => {
 		try {
-			const alt = getAlt(ps);
+			const alt = getAlt(ps, true);
 			await fs.writeFile(output, alt.fullDescription, err => console.log(err));
 		} catch {
 			failedFiles.push(input);
