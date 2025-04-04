@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   altgosling:
-    specifier: ^0.1.2
-    version: 0.1.2(@emotion/react@11.14.0)(@emotion/styled@11.14.0)(@mui/system@5.16.14)(@types/react@19.0.10)(enzyme@3.11.0)(react-dom@18.3.1)(react@18.3.1)
+    specifier: ^0.2.4
+    version: 0.2.4(@emotion/react@11.14.0)(@emotion/styled@11.14.0)(@mui/system@5.16.14)(@types/react@19.0.10)(enzyme@3.11.0)(react-dom@18.3.1)(react@18.3.1)
   gosling.js:
     specifier: ^1.0.2
     version: 1.0.2(enzyme@3.11.0)(pixi.js@6.5.10)(react-dom@18.3.1)(react@18.3.1)
@@ -2557,8 +2557,8 @@ packages:
       use-resize-observer: 9.1.0(react-dom@18.3.1)(react@18.3.1)
     dev: false
 
-  /altgosling@0.1.2(@emotion/react@11.14.0)(@emotion/styled@11.14.0)(@mui/system@5.16.14)(@types/react@19.0.10)(enzyme@3.11.0)(react-dom@18.3.1)(react@18.3.1):
-    resolution: {integrity: sha512-6lzrWm2sq5Vjcut3L/YmggB9hYtzhEJ0PmoYxt9ilAF/Egt3w4pAmsEPHZ6z9QdXcKTHHulkLpJTFyVqv5IFvQ==}
+  /altgosling@0.2.4(@emotion/react@11.14.0)(@emotion/styled@11.14.0)(@mui/system@5.16.14)(@types/react@19.0.10)(enzyme@3.11.0)(react-dom@18.3.1)(react@18.3.1):
+    resolution: {integrity: sha512-EgMYzf4shGu3S8Jdnx201IqssEGUNI5cXEXWyCWXcq4r3xTw2faEi2J1VFy7Vvh42gxGdIRS5JiTiJXmPX3Brg==}
     peerDependencies:
       react: ^16.6.3 || ^17.0.0 || ^18.0.0
       react-dom: ^16.6.3 || ^17.0.0 || ^18.0.0

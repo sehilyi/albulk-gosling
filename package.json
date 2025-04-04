@@ -4,7 +4,7 @@
 	"name": "albulk-gosling",
 	"version": "1.0.0",
 	"dependencies": {
-		"altgosling": "^0.1.2",
+		"altgosling": "^0.2.4",
 		"gosling.js": "^1.0.2"
 	}
 }
